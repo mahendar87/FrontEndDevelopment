@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors with Paragraph</title>
+    <style>
+        p::first-letter{
+            font-size: large;
+            color:red;
+        }
+        
+
+
+        p:first-child{
+            border: 2px dotted gold;
+        }
+        p:nth-child(2n){
+            border:2px dashed violet;
+        }
+        p:nth-child(3){
+            border: 2px ridge salmon;
+           
+
+        }
+        p::before{
+            content:"****";
+        }
+        p::after{
+            content:"####";
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        Digital India is a campaign launched by the Government of India in order to ensure that the Government's services are made available to citizens electronically by improved online infrastructure and by increasing Internet connectivity or making the country digitally empowered in the field of technology. 
+    </p>
+
+    <p>The initiative includes plans to connect rural areas with high-speed internet networks. It consists of three core components: the development of secure and stable digital infrastructure, delivering government services digitally, and universal digital literacy.
+    </p>
+    <p>The Pradhan Mantri fasal bima yojana (PMFBY) launched on 18 February 2016 by Prime Minister Narendra Modi is an insurance service for farmers for their yields. It was formulated in line with One Nation-One Scheme theme by replacing earlier two schemes National Agricultural Insurance Scheme (NAIS) and Modified National Agricultural Insurance Scheme (MNAIS) by incorporating their best features and removing their inherent drawbacks (shortcomings). It aims to reduce the premium burden on farmers and ensure early settlement of crop assurance claim for the full insured sum.
+
+    </p>
+    <p>
+        PMFBY aims to provide a comprehensive insurance cover against failure of the crop thus helping in stabilising the income of the farmers. The Scheme covers all Food & Oilseeds crops and Annual Commercial/Horticultural Crops for which past yield data is available and for which requisite number of Crop Cutting Experiments (CCEs) are being conducted under General Crop Estimation Survey (GCES).
+    </p>
+</body>
+</html>
